@@ -27,8 +27,8 @@ Taste Bonus: range -30% -- 30%
 > > but cover Variety Bonus
 */
 
-let debug = true;
-let restrict = true;
+let debug = false;
+let restrict = false;
 let iterations = 0;
 
 /* FUTURE PLANS: */
