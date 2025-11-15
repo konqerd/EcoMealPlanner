@@ -2,15 +2,15 @@ const { taste } = require('./util')
 
 // list max levels available on server (or within your region)
 const levelRestrictions = {
-    campfire: 1, // all players start at 1
-    hunting: 1, // all players start at 1
+    campfire: 0, // all players start at 0
+    hunting: 0, // all players start at 0
     butchery: -1,
     cooking: -1,
     advCooking: -1,
     baking: -1,
     advBaking: -1,
     farming: -1,
-    gathering: 1, // all players start at 1
+    gathering: 0, // all players start at 0
     milling: -1
 };
 
