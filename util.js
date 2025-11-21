@@ -11,4 +11,9 @@ const taste = {
     best: 6
 };
 
-module.exports = { taste }
+const variety = {
+    notcovered: 0,
+    covered: 1
+}
+
+module.exports = { taste, variety }
