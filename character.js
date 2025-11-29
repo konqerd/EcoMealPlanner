@@ -29,12 +29,12 @@ const nutrition = {
     calorieMultiplier: 1, // how many sets of meals you are consuming
     avgNutrition: 0, // remove meals with nutrition average below this
 
+    acceptableTotal: 150, // if bonus hits this, stop searching
+    maxPlates: 5, // max times you can consume a meal to reach the calorie limit
+    ignoreLowFoods: true, // remove low tier meals if certain Skill Levels are high
+
     preferredOnly: false, // false to include foods you don't like
     // update your preferences below
-
-    acceptableTotal: 150, // if bonus hits this, stop searching
-    maxPlates: 10, // max times you can consume a meal to reach the calorie limit
-    ignoreLowFoods: true, // remove basic meals if certain Skill Levels are high
     minPreference: taste.ok // remove meals below this preference level
 };
 

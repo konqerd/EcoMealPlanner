@@ -1,4 +1,7 @@
-let lostSources = ["clam", "urchin"];
+"use strict";
+
+// name (second column) from recipe list
+let lostSources = [];
 
 let tagList = {
     greens: ["agave", "beet greens", "fiddleheads", "fireweed shoots"],
@@ -120,7 +123,7 @@ let recipeList = [
     ["advCooking", "kelpy crab roll", 3, 22, 13, 11, 5, 1350, [["boiled rice", "kelp", "crab"]]],
     ["advCooking", "seeded camas roll", 3, 20, 2, 13, 16, 1400, [["boiled rice", "kelp", "camas paste", "fiddleheads"]]],
     ["advCooking", "sweet salad", 3, 18, 9, 7, 22, 1200, [["basic salad", "fruit salad", "simple syrup"]]],
-    ["advCooking", "spiky roll", 3, 20, 17, 7, 2, 1300, [["boild rice", "urchin"]]],
+    ["advCooking", "spiky roll", 3, 20, 17, 7, 2, 1300, [["boiled rice", "urchin"]]],
     ["advCooking", "agouti enchiladas", 4, 20, 8, 27, 3, 800, [["cornmeal", "tomato", "papaya", "sun cheese", "prime cut"]]],
     ["advCooking", "bison chow fun", 4, 16, 13, 20, 8, 1450, [["rice noodles", "bean sprout", "bison", "tag_oil"]]],
     ["advCooking", "poke bowl", 4, 21, 10, 11, 7, 1100, [["boiled rice", "beans", "kelp", "tuna"]]],
