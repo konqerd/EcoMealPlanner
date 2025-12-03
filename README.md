@@ -1,3 +1,3 @@
 temp
 
-<button name="button" onclick="http://www.google.com">Click me</button>
+<script src="mealPlanner.js"></script>
