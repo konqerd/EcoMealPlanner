@@ -1,3 +1,3 @@
 temp
 
-<script src="mealPlanner.js"></script>
+<script src="/mealPlanner.js"></script>
